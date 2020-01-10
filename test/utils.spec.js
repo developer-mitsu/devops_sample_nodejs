@@ -1,7 +1,7 @@
 const { math } = require('../src/utils')
 
 describe('utils test', () => {
-	describe('math test, () => {
+	describe('math test', () => {
 		test('should be 3 when adding 1 and 2', () => {
 			expect(math.add(1, 2)).toBe(3)
 		})
